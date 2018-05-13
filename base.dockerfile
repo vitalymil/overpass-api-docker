@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+COPY apt.conf /etc/apt/
 
 RUN apt-get update
 
